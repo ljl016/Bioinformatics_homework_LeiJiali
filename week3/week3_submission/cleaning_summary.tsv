@@ -1,0 +1,3 @@
+dataset	raw_features	annotation_columns	count_columns	metadata_samples	sample_alignment	missing_key_metadata	duplicate_gsm	duplicate_subject_stage	analysis_samples	filtering_rule	features_before_filter	features_after_filter	deseq2_design	deseq2_dimensions	vst_completed
+GSE146853	64253	6	68	68	TRUE	1	0	0	39	count >= 10 in at least 13 first-visit samples	64253	25161	~ analysis_group	25161 features x 39 samples	TRUE
+GSE87487	60498	6	20	20	TRUE	0	0	0	20	count >= 10 in at least 10 samples	60498	12960	~ subject + stage	12960 features x 20 samples	TRUE

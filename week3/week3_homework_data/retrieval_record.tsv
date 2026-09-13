@@ -1,0 +1,8 @@
+accession	checked_on	file_name	file_type	size_bytes
+GSE146853	2026-09-12	GSE146853_family.soft.gz	GEO SOFT gzip	5623
+GSE146853	2026-09-12	GSE146853_GeneCount_raw.txt.gz	raw gene-count TSV gzip	5262963
+SRX7899639	2026-09-12	SRX7899639_runinfo.csv	SRA RunInfo CSV	982
+GSE87487	2026-09-12	GSE87487_family.soft.gz	GEO SOFT gzip	3163
+GSE87487	2026-09-12	GSE87487_counts.20samples.txt.gz	raw gene-count TSV gzip	3901096
+SRX2199841	2026-09-12	SRX2199841_runinfo.csv	SRA RunInfo CSV	2338
+SRP090633	2026-09-12	SRP090633_runinfo.csv	SRA RunInfo CSV	34938

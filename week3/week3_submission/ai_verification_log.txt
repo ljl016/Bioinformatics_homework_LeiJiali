@@ -1,0 +1,43 @@
+AI AND VERIFICATION LOG
+Student: 雷嘉莉
+Checked: 2026-09-12
+
+1. Prompt: "Use the Nature Microbiology paper's data-driven problem and GSE for Part 1, and keep GSE87487 as Part 2."
+Decision: Accepted.
+Verification: The paper question was checked against Priya et al. (Nature Microbiology, 2022; DOI 10.1038/s41564-022-01121-z). GEO SOFT metadata and the official supplementary count files were used for GSE146853 and GSE87487.
+
+2. Prompt: "Rewrite the workflow as obtain -> display -> validate."
+Decision: Accepted.
+Verification: week3_homework.R first parses and prints accessions, dimensions, subjects, groups, and time points. Only the final QC section contains stopifnot() checks against expected results.
+
+3. Prompt: "Complete the GSE87487 GEO SOFT -> GSM -> SRX -> SRA RunInfo -> SRR/BioProject/SRP chain."
+Decision: Accepted.
+Verification: The first GSM was obtained from GSE87487 SOFT; its !Sample_relation SRA field yielded SRX2199841; SRA RunInfo then yielded SRR4305577, PRJNA344898, and SRP090633. Querying the discovered SRP returned 20 SRX experiments, 76 SRR runs, and 20 GSM samples, all with raw-read download paths.
+
+4. Suggestion: Use SRP099633 for GSE87487.
+Decision: Rejected and corrected.
+Verification: The official SRA RunInfo fields return SRP090633, not SRP099633. The script uses the discovered value rather than a manually entered study accession.
+
+5. Prompt: "For both GSE146853 and GSE87487, follow the teacher's sequence through DESeq2 object construction and VST, but stop before differential expression."
+Decision: Accepted.
+Verification: For each dataset, the script confirms the official count matrix, checks non-negative integer counts, aligns metadata, filters low counts, constructs a DESeqDataSet, runs blind VST, and creates a PCA panel. GSE146853 uses design ~ analysis_group; GSE87487 uses the paired design ~ subject + stage. The script does not call DESeq() or perform a differential-expression test.
+
+6. Suggestion: Filter GSE146853 at count >= 10 in at least the smallest first-visit group size.
+Decision: Accepted as a transparent pre-analysis QC rule.
+Verification: The smallest first-visit group contains 13 healthy samples. Applying count >= 10 in at least 13 of the 39 first-visit samples retained 25,161 of 64,253 features. For GSE87487, count >= 10 in at least 10 samples retained 12,960 of 60,498 features.
+
+7. Integrity tests used in the submitted script:
+- Count values are numeric, finite, non-negative, and integer-valued.
+- Count-matrix sample columns and GEO metadata sample titles have a one-to-one match after explicit identifier normalization.
+- GSM identifiers and subject-stage keys are checked for duplicates.
+- Missing grouping or design fields are counted and reported.
+- Both DESeq2 object dimensions and both VST assay dimensions are checked.
+- Required output files are checked with file.exists().
+- Final stopifnot() assertions run only after the discovered results have been printed.
+
+Exact sources queried by the R script:
+- https://ftp.ncbi.nlm.nih.gov/geo/series/GSE146nnn/GSE146853/soft/GSE146853_family.soft.gz
+- https://ftp.ncbi.nlm.nih.gov/geo/series/GSE146nnn/GSE146853/suppl/GSE146853_GeneCount_raw.txt.gz
+- https://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87487/soft/GSE87487_family.soft.gz
+- https://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87487/suppl/GSE87487_counts.20samples.txt.gz
+- https://trace.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo?acc=<accession>

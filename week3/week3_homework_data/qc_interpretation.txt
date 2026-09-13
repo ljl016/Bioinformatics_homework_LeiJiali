@@ -1,0 +1,2 @@
+After filtering and VST, PC1 and PC2 explain 12.8% and 11.0% of variance in GSE146853 and 32.2% and 15.0% in GSE87487.
+The first two PCs show limited IBS-versus-healthy separation in GSE146853 and visible pre-versus-post separation in GSE87487; the gray lines identify paired biopsies, and neither panel is a differential-expression test.

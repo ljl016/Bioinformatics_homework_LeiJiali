@@ -1,0 +1,18 @@
+GSE146853 count matrix: 64253 genes x 68 samples; non-negative integers: TRUE.
+GSE146853 metadata: 68 samples from 42 subjects.
+GSE146853 repeat structure: 26 subjects have two visits and 16 have one visit.
+GSE146853 cohorts: IBS-C 23, IBS-D 23, Healthy 21, missing cohort 1; T1 40 and T2 28.
+Primary first-visit contrast: IBS n=26 versus Healthy n=13.
+GSE146853 preprocessing: 25161 of 64253 features retained; DESeq2 object 25161 features x 39 samples; VST and PCA completed without differential-expression testing.
+Accession chain: GSE146853 -> GSM4407890 -> SRX7899639 -> SRR11294080; BioProject PRJNA612180; SRA Study SRP252532.
+GSE87487 count matrix: 60498 genes x 20 samples; non-negative integers: TRUE.
+GSE87487 matrix structure: 6 annotation columns; compressed size 3.7 MiB; file GSE87487_counts.20samples.txt.gz.
+GSE87487 GEO metadata: organism Homo sapiens; series type Expression profiling by high throughput sequencing; library strategy RNA-Seq; tissue Liver.
+GSE87487 material checks: liver allograft biopsies TRUE; bulk-tissue RNA-seq inference TRUE.
+GSE87487 design: 20 samples from 10 subjects, each sampled before and after reperfusion.
+GSE87487 IRI status: 4 IRI-positive subjects (8 samples) and 6 IRI-negative subjects (12 samples).
+GSE87487 preprocessing: 12960 of 60498 features retained; DESeq2 object 12960 features x 20 samples with design ~ subject + stage; VST and PCA completed without differential-expression testing.
+GSE87487 accession chain: GSE87487 -> GSM2332515 -> SRX2199841 -> SRR4305577; BioProject PRJNA344898; SRA Study SRP090633.
+The discovered study contains 20 SRX experiments, 76 SRR runs, and 20 GSM samples; all GSE87487 samples have raw-read download paths: TRUE.
+Samples are not independent.
+Use paired post-vs-pre comparison blocking on subject.
