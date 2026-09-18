@@ -1,0 +1,9 @@
+metric	R1	R2	definition
+Read count	120	120	Direct FASTQ count
+Sequence length range	80-80 bp	80-80 bp	Minimum-maximum observed length
+Matched pair IDs	120/120	120/120	Mate names match after removing :1/:2
+Reads containing adapter	18 (15.0%)	18 (15.0%)	Exact AGATCGGAAGAGC match
+High-GC reads	12 (10.0%)	0 (0.0%)	GC fraction >= 70%
+Exact duplicate observations	34 (28.3%)	0 (0.0%)	Read count minus unique sequence count
+Largest identical-sequence group	18 (15.0%)	1 (0.8%)	Exact sequence identity within each mate file
+Low late-cycle quality	18 (15.0%)	18 (15.0%)	Mean Phred <= 15 from cycle 51 onward
