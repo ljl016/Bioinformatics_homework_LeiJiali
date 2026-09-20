@@ -1,0 +1,3 @@
+af_threshold	candidate_count	candidate_genes
+0.01	4	TP53,BRCA2,LDLR,KRAS
+0.001	4	TP53,BRCA2,LDLR,KRAS

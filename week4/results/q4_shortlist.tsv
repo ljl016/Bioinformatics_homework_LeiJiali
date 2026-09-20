@@ -1,0 +1,5 @@
+rank	row_id	CHROM	POS	REF	ALT	GENE	CONSEQUENCE	DP	GQ	AF	CLINVAR_SIG	CLINVAR_ID	consequence_points	rarity_points	clinvar_points	priority_score	NOTE
+1	1	chr17	7673803	G	A	TP53	splice_acceptor_variant	80	99	1e-05	Pathogenic	VCV000012345	4	2	3	9	Annotated near a canonical splice junction
+2	2	chr13	32316461	C	T	BRCA2	missense_variant	60	90	1e-04	Uncertain_significance	VCV000067890	2	2	1	5	Rare missense with uncertain clinical significance
+3	12	chr12	25398284	C	A	KRAS	missense_variant	58	91	0.00015	Conflicting_interpretations_of_pathogenicity	VCV000000888	2	1	1.5	4.5	ClinVar conflicting interpretations
+4	9	chr19	11200200	C	T	LDLR	missense_variant	40	88	2e-04	Likely_benign	VCV000000666	2	1	-2	1	ClinVar Likely_benign
