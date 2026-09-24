@@ -1,0 +1,20 @@
+item	status	value
+rna_class	documented	bulk RNA-seq
+library_value_type	verified	raw non-negative integer counts
+count_dimensions	verified	1000 genes x 12 samples
+sample_alignment	pass	count columns exactly match metadata rows
+nonnegative_integer_counts	pass	TRUE
+biological_unit	documented	independent sample
+condition_levels	pass	control,treated
+batch_levels	pass	A,B,C
+reference_level	pass	control
+design_formula	verified	~ batch + condition
+model_full_rank	pass	TRUE
+filter_rule	applied	count >= 10 in at least 3 samples
+genes_before_filter	recorded	1000
+genes_after_filter	recorded	989
+coefficient	verified	condition_treated_vs_control
+contrast_direction	verified	treated versus control
+significance_rule	applied	padj < 0.05 and abs(shrunken log2FC) >= 1
+random_seed	recorded	20260922
+input_preservation	pass	original CSV inputs read only
