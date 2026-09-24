@@ -1,0 +1,41 @@
+ID,Description,GeneRatio,BgRatio,RichFactor,FoldEnrichment,zScore,pvalue,p.adjust,qvalue,geneID,Count,_row
+GO:0006953,acute-phase response,11/218,52/25615,0.2115,24.8558,15.9538,5.8587e-13,1.8929e-9,4.19e-11,Ccl5/Il6/Lcn2/Il1a/Ptgs2/Ptges/Saa2/Serpina3n/Hp/Orm1/Saa3,11,GO:0006953
+GO:0050878,regulation of body fluid levels,22/218,385/25615,0.0571,6.7143,10.4667,2.4377e-12,3.9381e-9,8.7167e-11,Prl2c2/Il6/F7/Hk2/Slc22a4/Kng2/Kng1/Cck/Apln/Comp/Plek/Kcnma1/Adm/Adm2/Thbd/Prl2c5/Gla/Mmp13/Angptl7/F13a1/Xdh/Tpsab1,22,GO:0050878
+GO:0002526,acute inflammatory response,13/218,123/25615,0.1057,12.4187,11.761,4.6256e-11,4.9818e-8,1.1027e-9,Aoc3/Ccl5/Il6/Lcn2/Il1a/Ptgs2/Npy1r/Ptges/Saa2/Serpina3n/Hp/Orm1/Saa3,13,GO:0002526
+GO:1901342,regulation of vasculature development,19/218,330/25615,0.0576,6.7652,9.7659,7.1583e-11,5.7821e-8,1.2798e-9,Ccl5/Mmp9/Prl2c2/Ccl2/Klf4/Cd40/Hk2/Il1a/Smoc2/Hmox1/Adm/Adm2/Camp/Dcn/Angptl7/Ptn/Itgb2/Cxcl10/Ccl11,19,GO:1901342
+GO:0019730,antimicrobial humoral response,15/218,203/25615,0.0739,8.6823,10.1811,2.4742e-10,1.3535e-7,2.9959e-9,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Slpi/Ppbp/Kng2/Kng1/Wfdc21/Adm/Camp/Cxcl5/Cxcl10/Ccl11,15,GO:0019730
+GO:0032496,response to lipopolysaccharide,21/218,443/25615,0.0474,5.57,8.9894,2.5135e-10,1.3535e-7,2.9959e-9,Il6/Mmp8/Ccl2/S100a8/Slpi/Lcn2/Nos2/Slc22a4/Il1a/Ppbp/Ptgs2/Cd14/Trem2/Wfdc21/Adm/Camp/Prdm1/Havcr2/Cxcl5/Mgst1/Cxcl10,21,GO:0032496
+GO:0045765,regulation of angiogenesis,18/218,323/25615,0.0557,6.548,9.2965,3.9087e-10,1.7167e-7,3.7997e-9,Ccl5/Mmp9/Prl2c2/Ccl2/Klf4/Cd40/Hk2/Il1a/Smoc2/Hmox1/Adm/Adm2/Camp/Dcn/Ptn/Itgb2/Cxcl10/Ccl11,18,GO:0045765
+GO:0050900,leukocyte migration,20/218,412/25615,0.0485,5.7039,8.9177,4.5382e-10,1.7167e-7,3.7997e-9,Ccl8/Ccl7/Dbh/Aoc3/Ccl5/Ccl3/Cxcl1/Mmp9/Ccl2/F7/S100a8/Il1a/Itgb7/Ppbp/Trem2/Cxcl5/Ptn/Itgb2/Cxcl10/Ccl11,20,GO:0050900
+GO:0002237,response to molecule of bacterial origin,21/218,459/25615,0.0458,5.3758,8.7644,4.7818e-10,1.7167e-7,3.7997e-9,Il6/Mmp8/Ccl2/S100a8/Slpi/Lcn2/Nos2/Slc22a4/Il1a/Ppbp/Ptgs2/Cd14/Trem2/Wfdc21/Adm/Camp/Prdm1/Havcr2/Cxcl5/Mgst1/Cxcl10,21,GO:0002237
+GO:0060326,cell chemotaxis,18/218,330/25615,0.0545,6.4091,9.1627,5.5143e-10,1.7817e-7,3.9436e-9,Ccl8/Ccl7/Enpp2/Ccl5/Ccl3/Cxcl1/Mmp9/Ccl2/F7/S100a8/Ppbp/Smoc2/Cxcl5/Ptn/Itgb2/Cxcl10/Ccl11/Saa3,18,GO:0060326
+GO:0006935,chemotaxis,21/218,476/25615,0.0441,5.1838,8.5365,9.1973e-10,2.384e-7,5.2768e-9,Ccl8/Ccl7/Enpp2/Ccl5/Ccl3/Cxcl1/Mmp9/Ccl2/F7/S100a8/Ppbp/Rtn4r/Trem2/Sema3g/Smoc2/Cxcl5/Ptn/Itgb2/Cxcl10/Ccl11/Saa3,21,GO:0006935
+GO:0042330,taxis,21/218,478/25615,0.0439,5.1621,8.5104,9.9143e-10,2.384e-7,5.2768e-9,Ccl8/Ccl7/Enpp2/Ccl5/Ccl3/Cxcl1/Mmp9/Ccl2/F7/S100a8/Ppbp/Rtn4r/Trem2/Sema3g/Smoc2/Cxcl5/Ptn/Itgb2/Cxcl10/Ccl11/Saa3,21,GO:0042330
+GO:0061844,antimicrobial humoral immune response mediated by antimicrobial peptide,13/218,157/25615,0.0828,9.7293,10.1647,9.9191e-10,2.384e-7,5.2768e-9,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Ppbp/Kng2/Kng1/Adm/Camp/Cxcl5/Cxcl10/Ccl11,13,GO:0061844
+GO:0071621,granulocyte chemotaxis,12/218,128/25615,0.0938,11.0156,10.5245,1.0634e-9,2.384e-7,5.2768e-9,Ccl8/Ccl7/Ccl5/Ccl3/Cxcl1/Ccl2/S100a8/Ppbp/Cxcl5/Itgb2/Cxcl10/Ccl11,12,GO:0071621
+GO:0045766,positive regulation of angiogenesis,14/218,191/25615,0.0733,8.6126,9.7837,1.1068e-9,2.384e-7,5.2768e-9,Ccl5/Mmp9/Prl2c2/Klf4/Cd40/Hk2/Il1a/Smoc2/Hmox1/Adm/Adm2/Camp/Itgb2/Ccl11,14,GO:0045766
+GO:1904018,positive regulation of vasculature development,14/218,194/25615,0.0722,8.4794,9.6883,1.3566e-9,2.7394e-7,6.0636e-9,Ccl5/Mmp9/Prl2c2/Klf4/Cd40/Hk2/Il1a/Smoc2/Hmox1/Adm/Adm2/Camp/Itgb2/Ccl11,14,GO:1904018
+GO:0097530,granulocyte migration,13/218,162/25615,0.0802,9.429,9.971,1.4598e-9,2.7746e-7,6.1414e-9,Ccl8/Ccl7/Ccl5/Ccl3/Cxcl1/Ccl2/S100a8/Il1a/Ppbp/Cxcl5/Itgb2/Cxcl10/Ccl11,13,GO:0097530
+GO:0030595,leukocyte chemotaxis,15/218,233/25615,0.0644,7.5644,9.3258,1.6761e-9,3.0086e-7,6.6594e-9,Ccl8/Ccl7/Ccl5/Ccl3/Cxcl1/Mmp9/Ccl2/F7/S100a8/Ppbp/Cxcl5/Ptn/Itgb2/Cxcl10/Ccl11,15,GO:0030595
+GO:0097529,myeloid leukocyte migration,15/218,243/25615,0.0617,7.2531,9.0739,2.9786e-9,5.0652e-7,1.1212e-8,Ccl8/Ccl7/Ccl5/Ccl3/Cxcl1/Mmp9/Ccl2/S100a8/Il1a/Ppbp/Trem2/Cxcl5/Itgb2/Cxcl10/Ccl11,15,GO:0097529
+GO:0006959,humoral immune response,16/218,316/25615,0.0506,5.9494,8.202,1.4815e-8,0.0000023934,5.2977e-8,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Slpi/Ppbp/Kng2/Kng1/Trem2/Wfdc21/Adm/Camp/Cxcl5/Cxcl10/Ccl11,16,GO:0006959
+GO:0002687,positive regulation of leukocyte migration,12/218,166/25615,0.0723,8.494,8.9744,2.0549e-8,0.0000031616,6.9982e-8,Ccl7/Aoc3/Ccl5/Ccl3/Mmp9/Ccl2/F7/Il1a/Ppbp/Trem2/Ptn/Cxcl10,12,GO:0002687
+GO:0048245,eosinophil chemotaxis,6/218,22/25615,0.2727,32.0455,13.4966,2.3619e-8,0.0000031921,7.0656e-8,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Ccl11,6,GO:0048245
+GO:0035296,regulation of tube diameter,13/218,204/25615,0.0637,7.4877,8.6193,2.3711e-8,0.0000031921,7.0656e-8,Cacna1g/Dbh/Htr1d/Avpr1a/Kng2/Ptgs2/Kng1/Npy1r/Adora2b/Apln/Comp/Kcnma1/Adm,13,GO:0035296
+GO:0097746,blood vessel diameter maintenance,13/218,204/25615,0.0637,7.4877,8.6193,2.3711e-8,0.0000031921,7.0656e-8,Cacna1g/Dbh/Htr1d/Avpr1a/Kng2/Ptgs2/Kng1/Npy1r/Adora2b/Apln/Comp/Kcnma1/Adm,13,GO:0097746
+GO:0035150,regulation of tube size,13/218,205/25615,0.0634,7.4512,8.592,2.5128e-8,0.0000032476,7.1884e-8,Cacna1g/Dbh/Htr1d/Avpr1a/Kng2/Ptgs2/Kng1/Npy1r/Adora2b/Apln/Comp/Kcnma1/Adm,13,GO:0035150
+GO:0050729,positive regulation of inflammatory response,12/218,172/25615,0.0698,8.1977,8.775,3.0533e-8,0.0000037943,8.3984e-8,Ccl7/Aoc3/Ccl5/Map3k8/Ccl3/Il6/Mmp8/S100a8/Ptgs2/Adora2b/Trem2/Traf1,12,GO:0050729
+GO:0032963,collagen metabolic process,11/218,139/25615,0.0791,9.2986,9.0891,3.1754e-8,0.0000037999,8.4109e-8,Mmp9/Il6/Mmp8/Ccl2/Mfap4/Mmp10/Adora2b/Klf15/Mmp13/Tnxb/Mmp3,11,GO:0032963
+GO:0050727,regulation of inflammatory response,18/218,434/25615,0.0415,4.8733,7.5398,3.9417e-8,0.0000045484,1.0068e-7,Ccl7/Aoc3/Ccl5/Map3k8/Ccl3/Il6/Mmp8/Cd33/S100a8/Ptgs2/Ier3/Npy1r/Adora2b/Trem2/Ptges/Traf1/Rora/Cd200r3,18,GO:0050727
+GO:0002523,leukocyte migration involved in inflammatory response,6/218,25/25615,0.24,28.2,12.6061,5.488e-8,0.0000061143,1.3534e-7,Aoc3/Ccl2/S100a8/Ppbp/Ptn/Itgb2,6,GO:0002523
+GO:0009636,response to toxic substance,14/218,266/25615,0.0526,6.1842,7.8744,7.5098e-8,0.000008088,1.7903e-7,Ccl5/Htr1d/Ccl3/Cyp2f2/S100a8/Lcn2/Mt1/Ptgs2/Ptges/Gsta1/Hp/Mt2/Mgst1/Abcb1a,14,GO:0009636
+GO:0072677,eosinophil migration,6/218,27/25615,0.2222,26.1111,12.095,9.0433e-8,0.0000094255,2.0863e-7,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Ccl11,6,GO:0072677
+GO:0003018,vascular process in circulatory system,14/218,271/25615,0.0517,6.0701,7.7739,9.4512e-8,0.0000095428,2.1123e-7,Cacna1g/Dbh/Htr1d/Avpr1a/Kng2/Ptgs2/Kng1/Npy1r/Adora2b/Apln/Comp/Kcnma1/Adm/Abcb1a,14,GO:0003018
+GO:0035821,modulation of process of another organism,10/218,125/25615,0.08,9.4,8.7222,1.2266e-7,0,2.6582e-7,Ccl8/Ptx3/Ccl5/Ccl3/Cxcl1/Slpi/Camp/Lrrc15/Ifitm6/Cxcl5,10,GO:0035821
+GO:0070098,chemokine-mediated signaling pathway,9/218,99/25615,0.0909,10.6818,8.9422,1.7712e-7,0,3.7256e-7,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Trem2/Cxcl5/Cxcl10/Ccl11,9,GO:0070098
+GO:0030198,extracellular matrix organization,15/218,345/25615,0.0435,5.1087,7.1185,3.0465e-7,0,6.1714e-7,Col28a1/Ptx3/Mmp9/Il6/Mmp8/Mfap4/Mmp10/Dmp1/Col8a2/Comp/Smoc2/Mmp13/Angptl7/Tnxb/Mmp3,15,GO:0030198
+GO:0045229,external encapsulating structure organization,15/218,346/25615,0.0434,5.0939,7.1033,3.1609e-7,0,6.1714e-7,Col28a1/Ptx3/Mmp9/Il6/Mmp8/Mfap4/Mmp10/Dmp1/Col8a2/Comp/Smoc2/Mmp13/Angptl7/Tnxb/Mmp3,15,GO:0045229
+GO:0043062,extracellular structure organization,15/218,347/25615,0.0432,5.0793,7.0882,3.2791e-7,0,6.1714e-7,Col28a1/Ptx3/Mmp9/Il6/Mmp8/Mfap4/Mmp10/Dmp1/Col8a2/Comp/Smoc2/Mmp13/Angptl7/Tnxb/Mmp3,15,GO:0043062
+GO:0071216,cellular response to biotic stimulus,15/218,347/25615,0.0432,5.0793,7.0882,3.2791e-7,0,6.1714e-7,Il6/Mmp8/Ccl2/Lcn2/Nos2/Il1a/Ppbp/Cd14/Trem2/Camp/Prdm1/Havcr2/Cxcl5/Ddit3/Cxcl10,15,GO:0071216
+GO:1990868,response to chemokine,9/218,110/25615,0.0818,9.6136,8.3878,4.3824e-7,0,7.8354e-7,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Trem2/Cxcl5/Cxcl10/Ccl11,9,GO:1990868
+GO:1990869,cellular response to chemokine,9/218,110/25615,0.0818,9.6136,8.3878,4.3824e-7,0,7.8354e-7,Ccl8/Ccl7/Ccl5/Ccl3/Ccl2/Trem2/Cxcl5/Cxcl10/Ccl11,9,GO:1990869
