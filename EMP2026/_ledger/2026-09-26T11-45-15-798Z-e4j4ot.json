@@ -1,0 +1,17 @@
+{
+  "event": "sync",
+  "synced_at": "2026-09-26T11:45:15Z",
+  "student_id": "24000139",
+  "display_name": "雷嘉莉",
+  "emp_version": "9.0.4",
+  "github_login": "ljl016",
+  "github_repo": "ljl016/Bioinformatics_homework_LeiJiali",
+  "github_branch": "main",
+  "week_dir": "Week_06",
+  "track": "microbiome_16s",
+  "assignment_type": "weekly",
+  "assignment_id": "week_06",
+  "assignment_title": "第6周",
+  "git_path": "EMP2026/Week_06/microbiome_16s/weekly/runs/2026-09-26T11-45-15-798Z-e4j4ot",
+  "run_id": "2026-09-26T11-45-15-798Z-e4j4ot"
+}
